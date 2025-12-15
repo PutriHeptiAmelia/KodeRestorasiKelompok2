@@ -8,7 +8,7 @@ import math
 # 1. BACA GAMBAR
 # ============================================================
 
-path = "bunga_potrait.png"   # ganti ke nama file gambarmu
+path = "bunga_potrait.png"
 img = Image.open(path).convert("L")
 img = np.array(img)
 
